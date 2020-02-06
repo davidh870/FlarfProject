@@ -1,0 +1,147 @@
+<!doctype html>
+    <head>
+        <link href = "../css/racecarStyle.css" rel = "stylesheet">
+		<meta charset="UTF-8">
+
+		<title> my car is faster </title>
+    </head>
+
+    <body>
+        <!-- Javascript Functions -->
+        <script>
+            function myFuncOne(){
+                document.getElementById('carC1R1').style.opacity = '0';
+                document.getElementById('carC2R4').style.opacity = '0';
+                document.getElementById('whiteSquareC3R2').style.opacity = '0';
+                document.getElementById('whiteSquareC4R1').style.opacity = '0';
+            }
+
+            function myFuncTwo(){
+                document.getElementById('carC4R4').style.opacity = '0';
+                document.getElementById('carC1R3').style.opacity = '0';
+                document.getElementById('whiteSquareC1R2').style.opacity = '0';
+                document.getElementById('whiteSquareC4R3').style.opacity = '0';
+            }
+
+            function myFuncThree(){
+                document.getElementById('carC2R2').style.opacity = '0';
+                document.getElementById('carC3R1').style.opacity = '0';
+                document.getElementById('whiteSquareC1R4').style.opacity = '0';
+                document.getElementById('whiteSquareC3R4').style.opacity = '0';
+
+            
+            }
+
+            function myFuncFour(){
+                document.getElementById('carC4R2').style.opacity = '0';
+                document.getElementById('carC3R3').style.opacity = '0';
+                document.getElementById('whiteSquareC2R1').style.opacity = '0';
+                document.getElementById('whiteSquareC2R3').style.opacity = '0';
+
+            }
+
+        </script>
+
+
+
+
+         <!--    Column One         -->
+        <div class = colOne>
+            <img id = carC1R1 src = "../images/car1.jfif" onclick = "myFuncOne()" onclick="document.getElementById('subp1').style.animationPlayState = 'running'"> 
+            
+            <div id = whiteSquareC1R2 onclick = "myFuncTwo()">
+                    <div class = p4>
+                            The two most important things you can provide to your car 
+                            <br>to increase its speed is air and fuel.
+                            
+                    </div>
+            </div>
+            
+
+            <img id = carC1R3 src = "../images/car2.jfif" onclick = "myFuncTwo()">
+
+            <div id = whiteSquareC1R4 onclick = "myFuncThree()">
+                <div class = p8>
+                    Many of these owners want their car to be as fast as possible and to be the best car out there on the road. .
+                </div>
+            </div>
+        </div>
+
+         <!--    Column Two         -->
+        <div class = colTwo>
+            <div id = whiteSquareC2R1 onclick = "myFuncFour()">
+                <div class = p1>
+                    how to make your car accelerate faster?
+                    <br>mods to make your car faster?
+                    <br>how to make a car faster without turbo?
+                    <br>what makes a car go fast?
+                    <br>how to make your automatic car faster?
+                    <br>how to make your car launch faster?
+                </div>
+            </div>
+
+            
+            <img id = carC2R2 src = "../images/car4.gif" onclick = "myFuncThree()">
+
+            <div id = whiteSquareC2R3 onclick = "myFuncFour()">
+                <div class = p2>
+                    People also ask
+                    <br>Does more horsepower mean faster car?
+                    <br>Does car weight affect top speed?
+                    <br>Does more BHP mean more speed?
+                </div>
+            </div>
+
+            <img id = carC2R4 src = "../images/car5.jpg" onclick = "myFuncOne()">
+        </div>
+
+
+         <!--    Column Three         -->
+        <div class = colThree>
+            <img id = carC3R1 src = "../images/car5.gif" onclick = "myFuncThree()">
+
+
+            <div id = whiteSquareC3R2 onclick = "myFuncOne()">  
+                <div class = p3>
+                    8 Cheap Modifications to Make Your Car Faster!
+                    <br>Make Your Car Faster For Free
+                    <br>What's The Best Car Mod To Go Faster?
+                    <br>3 Ways To Make Your Car Faster For FREE!
+                    <br>Doing This Will Make Your Car Accelerate Faster
+                </div>
+            </div>
+
+            <img id = carC3R3 src = "../images/car6.gif" onclick = "myFuncFour()">
+
+            <div id = whiteSquareC3R4 onclick = "myFuncThree()">  
+                <div class = p7>
+                    Shortly after we get our first car we want to make it faster. Usually, this urge comes about after we've been left in the dust by a more experienced drivers.
+                </div>
+            </div>
+        </div>
+        
+        <!--    Column Four         -->
+        <div class = colFour>
+            <div id = whiteSquareC4R1 onclick = "myFuncOne()">
+                <div class = p6>
+                    Air and fuel are essential for propelling a car forward 
+                    <br>and their combustion in the engine provides the force 
+                    <br>needed to power the car's components that make it move.
+                </div>
+            </div>
+
+            <img id = carC4R2 src = "../images/car8.jpg" onclick = "myFuncFour()">
+
+            <div id = whiteSquareC4R3 onclick = "myFuncTwo()">
+                <div class = p5>
+                    Ah, the infinite and pointless horsepower debate. Well, you see, it's not that simple. 
+                </div>
+            </div>
+
+            <img id = carC4R4 src = "../images/car7.jpg" onclick = "myFuncTwo()">
+        </div>
+
+        <img id = carR34 src="../images/car10.gif">
+
+    </body>
+</html>

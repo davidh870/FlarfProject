@@ -1,0 +1,230 @@
+/* CSS Styles */
+
+/* Load Font */
+@font-face {
+    font-family: Aileron;
+
+    src: url(fonts/Aileron.otf) format('truetype');
+    
+}
+
+/* Overall Body */
+html, body {
+    background:black;
+    font-family: Aileron;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Individual Paragraph */
+.p1{
+    padding-top: 10%;
+    font-size: large;
+}
+
+.p2{
+    padding-top: 15%;
+    font-size: large;
+    color: black;
+}
+
+.p3{
+    padding-top: 10%;
+    font-size: large;
+}
+
+.p4{
+    padding-top: 20%;
+    font-size: large;
+}
+
+.p5{
+    padding-top: 20%;
+    font-size: large;
+}
+
+.p6{
+    padding-top: 10%;
+    font-size: large;
+}
+
+.p7{
+    padding-top: 15%;
+    font-size: large;
+}
+
+.p8{
+    padding-top: 20%;
+    font-size: large;
+}
+
+/* Column Squares */
+.colOne{
+    z-index: 2;
+    font-size: 0%;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    text-align: center;
+}
+
+.colTwo{
+    z-index: 2;
+    font-size: 0%;
+    width: 25%;
+    height: 100%;    
+    position: fixed;
+    top: 0px;
+    left: 25%;
+    text-align: center;
+}
+
+.colThree{
+    z-index: 2;
+    font-size: 0%;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    text-align: center;
+}
+
+.colFour{
+    z-index: 2;
+    font-size: 0%;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0px; 
+    left: 75%;
+    text-align: center;
+}
+
+
+/* Race Flag Squares */
+#whiteSquareC1R2{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+#whiteSquareC1R4{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+#whiteSquareC2R1{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+#whiteSquareC2R3{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+#whiteSquareC3R2{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+#whiteSquareC3R4{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+#whiteSquareC4R1{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+#whiteSquareC4R3{
+    background-color: white;
+    width: 100%;
+    height: 25%;
+}
+
+
+/* Images */
+#carC1R1{
+    width: 100%;
+    height: 25%;
+    filter: grayscale(100%);
+   
+}
+
+#carC1R3{
+    width: 100%;
+    height: 25%;
+    filter: grayscale(100%);
+}
+
+#carC2R2{
+    width: 100%;
+    height: 25%;
+    filter: grayscale(100%);
+}
+
+#carC2R4{
+    width: 100%;
+    height: 25%;
+    filter: grayscale(100%);
+}
+
+#carC3R1{
+    width: 100%;
+    height: 25%;
+    filter: grayscale(100%);
+}
+
+#carC3R3{
+    width: 100%;
+    height: 25%;
+    filter: grayscale(100%);
+}
+
+#carC4R2{
+    width: 100%;
+    height: 25%;
+    filter: grayscale(100%);
+}
+
+#carC4R4{
+    width: 100%;
+    height: 25%;
+    filter: grayscale(100%);
+}
+
+
+#thirdPage{
+    width: 100%;
+    height: 100%;
+
+    font-family: Subway;
+    color: white;
+    font-size: 2em;
+
+    text-align: center;
+
+}
+
+
+#carR34{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+

@@ -1,0 +1,299 @@
+
+/* Overall Body General */
+body, html{
+    background: black;
+    height: 100%;
+    width: 100%;
+
+    font-family: creepy;
+    color:white;
+}
+
+/* Load Font */
+@font-face {
+    font-family: creepy;
+
+    src: url(fonts/creepy.ttf) format('truetype');
+}
+
+
+/* TEXT */
+#t1{
+    
+    display: 'block';
+
+    font-size: 12em;
+
+    position: fixed;
+    left: 8%;
+    top: 35%;
+}
+
+#t2{
+    display: none;
+
+    font-size: 11em;
+
+    position: fixed;
+    left: 5%;
+    top: 70%;
+}
+
+#t3{
+    display: none;
+
+    font-size: 10em;
+
+    position: fixed;
+    left: 15%;
+    top: 20%;
+}
+
+#t4{
+    display: none;
+
+    font-size: 9em;
+
+    position: fixed;
+    left: 45%;
+    top: 35%;
+}
+
+#t5{
+    display: none;
+
+    font-size: 8em;
+
+    position: fixed;
+    left: 45%;
+    top: 70%;
+}
+
+#t6{
+    display: none;
+
+    font-size: 7em;
+
+    position: fixed;
+    left: 5%;
+    top: 35%;
+}
+
+#t7{
+    display: none;
+
+    font-size: 6em;
+
+    position: fixed;
+    left: 75%;
+    top: 75%;
+}
+
+#t8{
+    display: none;
+
+    font-size: 5em;
+
+    position: fixed;
+    left: 5%;
+    top: 80%;
+}
+
+#t9{
+    display: none;
+
+    font-size: 4em;
+
+    position: fixed;
+    left: 45%;
+    top: 10%;
+}
+
+#t10{
+    display: none;
+
+    font-size: 3em;
+
+    position: fixed;
+    left: 45%;
+    top: 80%;
+}
+
+#t11{
+    display: none;
+
+    font-size: 2em;
+
+    position: fixed;
+    left: 5%;
+    top: 70%;
+}
+
+#t12{
+    display: none;
+
+    font-size: 1em;
+
+    position: fixed;
+    left: 45%;
+    top: 30%;
+}
+
+/* Images */
+#wake2{
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+
+    animation: 0.2s linear 4 condemned_blink_effect;
+    animation-delay: 2s;
+
+}
+
+#wake1{
+    visibility: hidden;
+
+    position: fixed;
+    left: 0%;
+    top: 0%;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+
+    animation: revealImage;
+    animation-duration: 2s;
+    animation-delay: 4s;
+
+}
+
+#wake3{
+    visibility: hidden;
+
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    left: 0%;
+    top: 0%;
+
+    filter: grayscale(100%);
+
+    animation: 0.1s linear 4 condemned_blink_effect;
+    animation-delay:8s;
+}
+
+#wake4{
+    visibility: hidden;
+
+    width: 5%;
+    height: auto;
+
+    position: fixed;
+    left: 50%;
+    top: 45%;
+}
+
+#wake5{
+    visibility: hidden;
+
+    width: 25%;
+    height: auto;
+
+    position: fixed;
+    left: 40%;
+    top: 35%;
+}
+
+#wake6{
+    visibility: hidden;
+
+    width: 35%;
+    height: auto;
+
+    position: fixed;
+    left: 35%;
+    top: 30%;
+}
+
+#wake7{
+    visibility: hidden;
+
+    width: 45%;
+    height: auto;
+
+    position: fixed;
+    left: 30%;
+    top: 15%;
+}
+
+#wake8{
+    visibility: hidden;
+
+    width: 55%;
+    height: auto;
+
+    position: fixed;
+    left: 25%;
+    top: 10%;
+}
+
+#wake9{
+    visibility: hidden;
+
+    width: 65%;
+    height: auto;
+
+    position: fixed;
+    left: 15%;
+    top: 5%;
+}
+
+#wake10{
+    visibility: hidden;
+
+    width: 75%;
+    height: auto;
+
+    position: fixed;
+    left: 12%;
+    top: 0%;
+}
+
+
+  
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    98% {
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes revealImage {
+    0% {
+        visibility: hidden;
+    }
+    
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(8);
+    }
+}
